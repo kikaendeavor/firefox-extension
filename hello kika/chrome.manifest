@@ -1,0 +1,5 @@
+<!-- 请求类型content，包名sample，位置是相对于chrome.manifest文件的chrome/content/ -->
+content     sample    chrome/content/	
+
+<!-- merge sample.xul into browser.xul when browser.xul loads -->
+overlay chrome://browser/content/browser.xul chrome://sample/content/sample.xul		

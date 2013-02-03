@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<overlay id="sample" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<statusbar id="status-bar">
+		<statusbarpanel id="my-panel" label="Hello, kika"  />
+	</statusbar>
+	
+	<script type="application/x-javascript"><!--mce:0--></script>
+	
+	<menupopup id="contentAreaContextMenu">
+        <menuseparator id="separator_flashcard">
+        <menuitem image="chrome://flashcard/skin/word.png" class="menuitem-iconic" id="menuitem_flashcard_add"></menuitem>
+		</menuseparator>
+	</menupopup>
+</overlay>
